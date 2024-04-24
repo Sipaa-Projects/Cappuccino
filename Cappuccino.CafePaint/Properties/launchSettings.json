@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Cappuccino.CafePaint (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Cappuccino.CafePaint (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

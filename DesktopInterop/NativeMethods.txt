@@ -1,0 +1,8 @@
+﻿SetWindowLong
+GetWindowLong
+SetParent
+WS_CHILD
+WS_POPUP
+GWL_STYLE
+ShowWindow
+MoveWindow

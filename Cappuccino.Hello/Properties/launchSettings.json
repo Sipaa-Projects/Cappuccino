@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Cappuccino.Hello (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Cappuccino.Hello (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

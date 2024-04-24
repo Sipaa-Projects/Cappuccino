@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Cappuccino.Hello.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Cappuccino.Hello"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Cappuccino Hello">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop/>
+    </Window.SystemBackdrop>
+    
+    <Grid>
+        <!-- Title bar -->
+        <Grid Height="32"
+              VerticalAlignment="Top"
+              HorizontalAlignment="Stretch">
+            
+            <TextBlock HorizontalAlignment="Left"
+                       VerticalAlignment="Center"
+                       Margin="12, 0"
+                       Style="{StaticResource CaptionTextBlockStyle}">
+                Cappuccino Hello
+            </TextBlock>
+            
+        </Grid>
+        
+        <!-- Content -->
+        <StackPanel Margin="0, 32, 0, 0" 
+                    Orientation="Horizontal">
+            
+            <Grid Background="{ThemeResource LayerFillColorDefault}"
+                  CornerRadius="4, 4, 0, 4">
+                
+                <TextBlock Margin="150"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center">
+                    Hi
+                </TextBlock>
+                
+            </Grid>
+            
+            <Grid>
+                
+                <TextBlock Style="{StaticResource TitleTextBlockStyle}"
+                           Margin="50, 30"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top">
+                    Hello!
+                </TextBlock>
+
+                <Grid Margin="50, 74, 0, 0">
+                    
+                    <StackPanel>
+                        
+                        <TextBlock HorizontalAlignment="Left"
+                                   VerticalAlignment="Top">
+Welcome to your PC, still running Windows 11, but with a fresh, new desktop environment.
+                        </TextBlock>
+                        
+                        <TextBlock HorizontalAlignment="Left"
+                                   VerticalAlignment="Top">
+If you want, we can set up your PC by clicking "Next". Else, you can click the close button at top right.
+                        </TextBlock>
+                        
+                    </StackPanel>
+                    
+                </Grid>
+                
+            </Grid>
+            
+        </StackPanel>
+    </Grid>
+</Window>
