@@ -3,6 +3,9 @@ GetWindowLong
 SetParent
 WS_CHILD
 WS_POPUP
+WM_SETICON
 GWL_STYLE
 ShowWindow
 MoveWindow
+SendMessage
+LoadImage

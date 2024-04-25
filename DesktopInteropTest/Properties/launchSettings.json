@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "HwndHostControl test": {
+      "commandName": "Project",
+      "commandLineArgs": "hwndhost"
+    },
+    "WinUIForms test": {
+      "commandName": "Project",
+      "commandLineArgs": "wuiforms"
+    }
+  }
+}

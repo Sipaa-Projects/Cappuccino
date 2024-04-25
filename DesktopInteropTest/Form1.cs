@@ -18,9 +18,8 @@ namespace DesktopInteropTest
             WindowsXamlManager.InitializeForCurrentThread();
 
             Window form = new Window();
-            form.SystemBackdrop = new MicaBackdrop();
             Grid grid = new Grid();
-            MUXC.Button btn = new() { Content = "Click me!" };
+            MUXC.Button btn = new() { Content = "Click me!", HorizontalAlignment = Microsoft.UI.Xaml.HorizontalAlignment.Center, VerticalAlignment = VerticalAlignment.Center };
             grid.Children.Add(btn);
             form.Content = grid;
 

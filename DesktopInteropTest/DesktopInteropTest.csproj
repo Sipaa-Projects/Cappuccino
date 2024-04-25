@@ -27,9 +27,6 @@
     <Reference Include="PresentationFramework">
       <HintPath>Presentation\PresentationFramework.dll</HintPath>
     </Reference>
-    <Reference Include="System.Xaml">
-      <HintPath>Presentation\System.Xaml.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
